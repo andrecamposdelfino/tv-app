@@ -1,0 +1,99 @@
+.content {
+    width: 100%;
+    max-height: fit-content;
+    background-color: rgb(30, 30, 54);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 130px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h2, p {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.content .divTreding {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.content .divTreding .cards{
+    width: 100%;
+    max-height: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+.content .divTreding .cards .card{
+    width: 400px;
+    max-height: fit-content;
+    background-color: rgb(15, 15, 29);
+    border-radius: 8px;
+}
+
+.content .divTreding .cards .card img{
+    width: 400px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.box-separator {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-separator .clap {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.recomendacoes {
+    display: grid;
+    grid-column: 16px;
+    grid-row-gap:16px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.recomendacoes .miniCards {
+    width: 100%;
+    max-height: fit-content;
+    display: grid;
+    grid-column: 16px;
+    grid-row-gap:16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.recomendacoes .miniCards .minicard {
+    width: 200px;
+    max-height: fit-content;
+    background-color: rgb(15, 15, 29);
+    border-radius: 8px;
+}
+
+.recomendacoes .miniCards .minicard img{
+
+    width: 200px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+
+

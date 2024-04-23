@@ -1,0 +1,6 @@
+.barraLateral {
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(30, 30, 54);
+    position: fixed;
+}

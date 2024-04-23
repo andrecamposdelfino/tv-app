@@ -1,0 +1,55 @@
+nav {
+    width: 60px;
+    height: 90vh;
+    background-color: rgb(15, 15, 29);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+}
+
+.navContainer {
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.navAvatar {
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.navAvatar img {
+    border-radius: 100%;
+}
+
+
+.hifilm {
+    color: red;
+    font-size: 2rem;
+}
+
+.hiotline {
+    color: rgb(248, 245, 245);
+    font-size: 2rem;
+}
+
+.hifilm2 {
+    color: rgb(248, 246, 246);
+    font-size: 2rem;
+}
+
+.mdbook {
+    color: rgb(248, 246, 246);
+    font-size: 2rem;
+}
