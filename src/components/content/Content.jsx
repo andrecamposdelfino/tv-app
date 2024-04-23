@@ -135,7 +135,7 @@ function Content(){
                                     <h2>{dt.titulo}</h2>
 
                                     <div className="box-separator">
-                                        <CgClapperBoard className="clap"/>
+                                    <a href={dt.link} target="_blanck"><CgClapperBoard className="clap"/></a>
                                         <p>{dt.ano}</p>
                                     </div>
                                     
