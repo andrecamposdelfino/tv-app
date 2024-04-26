@@ -1,6 +1,6 @@
 # Projeto desafio 
 # Front end mentor 
-# Nivel advanced
+# Nivel avançado
 
 Resolvi fazer esse projeto para praticar meus conhecimentos
 
